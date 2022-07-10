@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<!-- <style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style> --> */
+html{
+    font-size: 62.5%;
+}
+body{
+    
+    line-height: 1.6;
+    background-color: #f2ebe3;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Fraunces', serif; */
+
+
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   max-width: 700px;
+   height: 500px;
+}
+.main-card__rightside{
+    background-color: red;
+}
+.main_img-card{
+  width: 300px; 
+  height: 1; 
+}
