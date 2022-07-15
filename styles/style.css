@@ -4,22 +4,16 @@
     padding: 0;
 }
 
-
-/* Feel free to remove these styles or customise in your own stylesheet 👍 -->
-<!-- <style>
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
-</style> --> */
 html{
     font-size: 62.5%;
 }
+/*  font-family: 'Fraunces', serif; */
 body{
     
     line-height: 1.6;
     background-color: #f2ebe3;
-    /* font-family: 'Montserrat', sans-serif; */
-    /* font-family: 'Fraunces', serif; */
-
+    font-family: 'Montserrat', sans-serif;
+    
 
 }
 img{
@@ -33,18 +27,77 @@ a{
     text-decoration: none;
 }
 
-.main-card{
+.product{
+ width: 100%;
+ display: grid;
+ grid-template-columns: repeat(2 , 1fr);
+ max-width: 600px;
+ margin: 90px auto;
+  
+}
+
+.product_img-card{
+   border-top-left-radius: 1.4rem;
+   border-bottom-left-radius: 1.4rem;
+}
+.attribution{
+ text-align: center;
+ font-size: 1.3rem;
+}
+.product__info{
+    background-color: #fff;
+    border-top-right-radius: 1.4rem;
+    border-bottom-right-radius: 1.4rem;
+    
+}
+.btn{
+    display: block;
+    cursor: pointer;
+    background: none;
+    border: none;
+    background-color:hsl(158, 36%, 37%);
+    padding: 1.5rem 7rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border-radius:0.9rem ;
+    
+}
+.product__info-name{
+    font-size: 1.5rem;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+.product__info{
+    padding: 4rem 2.5rem 1rem 3.5rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+
+}
+.product__info-title{
+    font-family: 'Fraunces', serif; 
+    font-size: 3rem; 
+    line-height: 1.1;
+    margin-bottom: 2rem;
+
+   
+}
+.product__info-caption{
+  font-size: 1.2rem;
+}
+.product__cost{
+    display: flex;
     align-items: center;
-    height: 100vh;
-   max-width: 700px;
-   height: 500px;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    
 }
-.main-card__rightside{
-    background-color: red;
+.product__price{
+    font-size: 4rem;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
 }
-.main_img-card{
-  width: 300px; 
-  height: 1; 
+.product__price-old{
+    font-size: 1.2rem;
+    text-decoration: line-through;
+    
 }

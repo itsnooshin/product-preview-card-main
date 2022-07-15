@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Product preview card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- font awsome  -->
+    <script src="https://kit.fontawesome.com/ce011ecf42.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="./styles/style.css">
+    <title>Frontend Mentor | Product preview card component</title>
 
+    <link rel="stylesheet" href="./styles/style.css" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
-</head>
-<body>
-
-
-   <!-- main section -->
-  <main class="main-card">
-    <div class="main-card__Leftside">
-      <img src="./images/image-product-desktop.jpg" alt="image card" class="main_img-card">
-    </div>
-    <div class="main-card__rightside">
-       <p class="main-card-title">
-        gdfgfd
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main section -->
+    <div class="product">
+      <div class="product__img">
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="image card"
+          class="product_img-card"
+        />
+      </div>
+      <div class="product__info">
+        <p class="product__info-name">PERFUME</p>
+        <h2 class="product__info-title">Gabrielle Essence Eau De Parfum</h2>
+        <p class="product__info-caption">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
         </p>
+        <div class="product__cost">
+          <p class="product__price">
+            $149.99
+          </p>
+            <div class="product__price-old">
+             $169.99
+            </div>
+        </div>
+        <div class="product__cart-add">
+          <button class="btn btn__card"> <i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+        </div>
+      </div>
     </div>
 
 
-
-
-
-  </main>
-
-  Preview
-
-  Gabrielle Essence Eau De Parfum
-
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
-
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Nooshin bakhtiari</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a  class="information"   href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Nooshin bakhtiari</a>.
+    </div>
+  </body>
 </html>
