@@ -1,0 +1,33 @@
+/* Resposive */
+@media(max-width:600px){
+   
+    .product{
+        grid-template-columns:1fr;
+         width: min(400px ,98%);
+        margin: 40px auto;
+        grid-template-rows: 300px auto;
+        
+    }
+   .product__img .product_img-card {
+   object-fit: cover;
+    width: 100%;
+    height: 100%;
+   }
+   .product_img-card{
+    border-top-left-radius: 1.4rem;
+    border-top-right-radius: 1.4rem;
+
+    border-bottom-left-radius: 0rem;
+    height: 100%;
+ }
+ .product__info{
+    background-color: #fff; 
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 1.4rem;
+    border-bottom-left-radius: 1.4rem;
+    
+}
+.btn{
+    margin-bottom: 2rem;
+}
+}

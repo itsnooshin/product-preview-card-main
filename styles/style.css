@@ -28,7 +28,6 @@ a{
 }
 
 .product{
- width: 100%;
  display: grid;
  grid-template-columns: repeat(2 , 1fr);
  max-width: 600px;
@@ -39,38 +38,44 @@ a{
 .product_img-card{
    border-top-left-radius: 1.4rem;
    border-bottom-left-radius: 1.4rem;
+   height: 100%;
 }
 .attribution{
  text-align: center;
  font-size: 1.3rem;
 }
 .product__info{
-    background-color: #fff;
+    background-color: #fff; 
     border-top-right-radius: 1.4rem;
     border-bottom-right-radius: 1.4rem;
     
 }
 .btn{
-    display: block;
+    display:inline-block; 
     cursor: pointer;
     background: none;
     border: none;
     background-color:hsl(158, 36%, 37%);
-    padding: 1.5rem 7rem;
+    padding: 1.5rem 3rem;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     border-radius:0.9rem ;
+    font-size: 1.5rem;
+    text-align: center;
     
 }
 .product__info-name{
-    font-size: 1.5rem;
-    letter-spacing: 8px;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
     margin-bottom: 2rem;
+    font-weight: 400;
+    color: hsl(228, 12%, 48%);
 }
 .product__info{
-    padding: 4rem 2.5rem 1rem 3.5rem;
+    padding: 3rem 2.5rem 1rem 3.5rem;
     display: flex;
     flex-direction: column;
+  
 
 }
 .product__info-title{
@@ -82,7 +87,9 @@ a{
    
 }
 .product__info-caption{
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 2rem;
 }
 .product__cost{
     display: flex;
@@ -92,12 +99,34 @@ a{
     
 }
 .product__price{
-    font-size: 4rem;
+    font-size: 3rem;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
 }
 .product__price-old{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
     
 }
+.card-icon{
+ width: 1.7rem;
+   height: 1.7rem;  
+}
+.btn-primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.btn-primary:hover{
+    background-color: hsl(157, 59%, 11%); 
+
+}
+.name-developer{
+  color: hsl(158, 36%, 37%);
+}
+.information{
+    color:hsl(158, 36%, 37%);
+}
+
