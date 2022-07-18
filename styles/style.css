@@ -31,7 +31,7 @@ a{
  display: grid;
  grid-template-columns: repeat(2 , 1fr);
  max-width: 600px;
- margin: 90px auto;
+ margin: 100px auto;
   
 }
 
